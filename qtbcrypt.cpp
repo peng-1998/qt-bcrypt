@@ -10,9 +10,6 @@
 
 
 
-#include "qtbcrypt.h"
-
-
 
 #include "qtbcrypt.h"
 #include <time.h>
@@ -20,7 +17,7 @@
 
 
 extern "C" {
-    #include <openwall_crypt/ow-crypt.h>
+    #include "openwall_crypt/ow-crypt.h"
 }
 
 
